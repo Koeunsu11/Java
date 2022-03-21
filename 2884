@@ -1,0 +1,29 @@
+//씨애랑 자바교육
+
+package week1;
+ 
+import java.util.*;
+
+public class num1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Scanner input = new Scanner(System.in);
+	    
+	    System.out.println("첫 번째 정수를 입력하시오: ");  int n1 = input.nextInt();
+	    System.out.println("첫 번째 정수를 입력하시오: ");  int n2 = input.nextInt();
+	    
+	    System.out.println(n1*(n2%10));
+	    System.out.println((n1*(n2%100-n2%10))/10);
+	    System.out.println((n1*(n2-n2%100))/100);
+	    
+	    
+	    System.out.println(n1*(n2%10) + (n1*(n2%100-n2%10))/10*10 + (n1*(n2-n2%100))/100*100);
+		
+
+	}
+
+}
+
+
+		
