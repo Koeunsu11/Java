@@ -1,0 +1,28 @@
+//씨애랑 자바교육
+
+package week1;
+
+import java.util.*;
+
+public class num2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("A를 입력하시오: "); int A = input.nextInt();
+		System.out.println("B를 입력하시오: "); int B = input.nextInt();
+		System.out.println("C를 입력하시오: "); int C = input.nextInt();
+		
+		System.out.println((A+B)%C);
+		System.out.println(((A%C) + (B%C))%C);
+		System.out.println((A*B)%C);
+		System.out.println(((A%C)*(B%C))%C);
+		
+		
+
+	}
+
+}
+
+
